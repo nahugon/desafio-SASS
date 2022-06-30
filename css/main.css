@@ -93,3 +93,12 @@ footer {
     column-gap: 2rem; }
   .mainP {
     align-self: center; } }
+
+main {
+  display: flex;
+  background-color: beige; }
+
+footer {
+  display: flex;
+  background-color: black;
+  margin-top: 50rem; }

@@ -183,3 +183,23 @@ footer {
         }
     }
 
+    //aplicando mixin sin parametros
+
+    @mixin flex{
+      display: flex;
+      
+    
+    }
+    
+    main{
+      @include flex;
+      background-color: beige;
+    
+    }
+    footer{
+      @include flex;
+      background-color: black;
+      margin-top: 50rem;
+    }
+    
+    
